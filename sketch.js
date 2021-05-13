@@ -129,6 +129,9 @@ function draw(){
       }
       makingAsteroids();
  
+    if(bulletG.isTouching(bigAsteroidG){
+       bigAsteroidG.destroyEach()
+  }
 
       bigAsteroid.velocityY = 2
 
